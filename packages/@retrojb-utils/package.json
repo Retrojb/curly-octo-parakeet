@@ -1,0 +1,23 @@
+{
+  "name": "@retrojb/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Utils package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rndNum": "node ./src/random-number.js",
+    "rndStr": "node ./src/random-string.js"
+  },
+  "author": "retrojb",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0"
+  },
+  "dependencies": {
+    "mkdirp": "^3.0.1"
+  }
+}
